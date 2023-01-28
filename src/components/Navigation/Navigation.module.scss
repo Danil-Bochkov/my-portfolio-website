@@ -1,0 +1,28 @@
+@import "../../variables.module.scss";
+
+nav {
+  transition: $transition;
+  @media screen and (max-width: 899.98px) {
+    
+  }
+  margin-bottom: 30px;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+li {
+  padding: 10px 0;
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-3px);
+    transition: $transition;
+  }
+}
+
+.link:hover {
+  color: unset;
+}

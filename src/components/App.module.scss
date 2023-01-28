@@ -1,0 +1,40 @@
+@import "../variables.module.scss";
+
+div.dark, div.light {
+  @media screen and (max-width: 899.98px) {
+    padding-bottom: 50px;
+  }
+}
+
+
+
+.dark {
+  background-color: $dark;
+  color: $white;
+  transition: all 400ms;
+
+  a, i, li {
+    color: $white;
+    transition: color 400ms;
+  }
+
+  a:visited {
+    color: $white;
+  }
+}
+
+.light {
+  background-color: $white;
+  color: $dark;
+  transition: all 400ms;
+  
+  a, i, li {
+    color: $dark;
+    transition: color 400ms;
+  }
+
+  a:visited {
+    color: $dark;
+  }
+
+}
