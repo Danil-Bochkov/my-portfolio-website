@@ -54,7 +54,7 @@ export const data = {
             label: 'telegram'
         }
     ],
-    bio: "Hi! I'm Danny. I'm a Full Stack Developer. I studied CompSci at National University of Radioelectronics. To be honest, I dedicate myself to working on every task. I try to learn everything new because web development is very interesting to me. I believe that it is important for a person that the site or application he visited was very pleasant and without bugs. I also know how to fit well into a team because I am an open and kind person. I am very focused and confident. You should hire me!",
+    bio: "Hi!! I'm Danny. I'm a Full Stack Developer. I studied CompSci at National University of Radioelectronics. To be honest, I dedicate myself to working on every task. I try to learn everything new because web development is very interesting to me. I believe that it is important for a person that the site or application he visited was very pleasant and without bugs. I also know how to fit well into a team because I am an open and kind person. I am very focused and confident. You should hire me!",
     skills:
         {
             proficientWith: ['html5', 'css3', 'sass', 'javascript', 'react', 'nodejs', 'mongodb'],
