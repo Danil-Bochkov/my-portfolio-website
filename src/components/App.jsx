@@ -4,9 +4,9 @@ import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
 import Navigation from './Navigation/Navigation';
 
-import HomePage from '../pages/HomePage/HomePage';
-import AboutPage from '../pages/AboutPage/AboutPage'
 import ProjectsPage from '../pages/ProjectsPage/ProjectsPage'
+import About from './About/About';
+import Home from './Home/Home';
 
 export const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -37,8 +37,8 @@ export const App = () => {
              </Grid>
              <Grid item flexGrow={1}>
                 <Routes>
-                   <Route index path={'/'} element={<HomePage/>} end/>
-                   <Route exact path={'/about'} element={<AboutPage/>}/>
+                   <Route index path={'/'} element={<Home/>} end/>
+                   <Route exact path={'/about'} element={<About/>}/>
                    <Route exact path={'/projects/*'} element={<ProjectsPage/>}/>
                 </Routes>
              </Grid>

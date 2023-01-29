@@ -3,6 +3,9 @@
 .wrapperInfo {
   @media screen and (max-width: 899.98px) {
     margin-top: 25px;
+    & h1 {
+      margin-bottom: 10px;
+    }
   }
 }
 

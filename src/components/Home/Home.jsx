@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import EmojiList from "./EmojiList";
 import SocialIcon from './SocialIcon';
 import {Box} from "@mui/material";
-import {data} from "../../Data/data";
+import {data} from "../../data/data";
 
 export default function Home() {
 
@@ -15,7 +15,7 @@ export default function Home() {
               height={{xs: '35vh', md: '40vh'}}
               borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}} />
          <Box className={Style.wrapperInfo}>
-            <h1>Hi, I'm <span style={{background: data.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{data.firstName}</span><span className={Style.hand}>🤚</span>
+            <h1>Hi, I'm <span style={{background: data.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{data.firstName}</span><span className={Style.hand}>✋</span>
             </h1>
             <h2>I'm {data.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>

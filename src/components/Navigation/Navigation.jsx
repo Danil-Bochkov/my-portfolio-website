@@ -3,7 +3,6 @@ import Style from './Navigation.module.scss';
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher'
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
-import {data} from "../../Data/data";
 
 const links = [
     {
@@ -33,8 +32,7 @@ function Navigation({darkMode, handleClick}) {
                  gap={{xs: '2rem', md: '8rem'}}
                  textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
-                    <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
-                         sx={{borderImageSource: data.gradient}}>
+                    <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
                             {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
                             {link.type && <h1>{link.name}</h1>}
