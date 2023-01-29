@@ -58,7 +58,7 @@ export const data = {
     skills:
         {
             proficientWith: ['html5', 'css3', 'sass', 'javascript', 'react', 'nodejs', 'mongodb'],
-            exposedTo: ['typescript', 'react native', 'angular', 'vuejs']
+            exposedTo: ['figma', 'adobe after effects', 'scrum&kanban']
         }
     ,
     hobbies: [
