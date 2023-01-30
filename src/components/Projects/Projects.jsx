@@ -10,7 +10,6 @@ const btns = [
   {
     name: "All",
     to: "/",
-    active: "home",
   },
   {
     name: "Pet",
