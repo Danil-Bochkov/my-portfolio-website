@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Style from "./App.module.scss";
-import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
-import Navigation from "./Navigation/Navigation";
 
-import ProjectsPage from "../pages/ProjectsPage/ProjectsPage";
-import About from "./About/About";
-import Home from "./Home/Home";
+import Navigation from "./Navigation/Navigation";
+import AnimatedPages from "./AnimatedPages/AnimatedPages";
 
 export const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -41,11 +38,7 @@ export const App = () => {
           <Navigation darkMode={darkMode} handleClick={handleToggleDarkMode} />
         </Grid>
         <Grid item flexGrow={1}>
-          <Routes>
-            <Route index path={"/"} element={<Home />} end />
-            <Route exact path={"/about"} element={<About />} />
-            <Route exact path={"/projects/*"} element={<ProjectsPage />} />
-          </Routes>
+          <AnimatedPages />
         </Grid>
       </Grid>
     </Box>

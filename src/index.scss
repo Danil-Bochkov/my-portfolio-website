@@ -1,5 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
 
+html {
+  overflow-y: overlay;
+}
+
 body {
   margin: 0;
   font-family: Inter, sans-serif;
@@ -14,11 +18,10 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 body::-webkit-scrollbar-thumb {
-  // border-radius: 10px;
   background-image: -webkit-gradient(
     linear,
     left top,

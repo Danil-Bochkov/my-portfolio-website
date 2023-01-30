@@ -1,9 +1,5 @@
-import React from 'react'
-
 function TeamProjects() {
-  return (
-    <div>TeamProjects</div>
-  )
+  return <div>TeamProjects</div>;
 }
 
-export default TeamProjects
+export default TeamProjects;

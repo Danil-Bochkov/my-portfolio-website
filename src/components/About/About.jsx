@@ -3,6 +3,7 @@ import Terminal from "./Terminal";
 import { Box } from "@mui/material";
 import { data } from "../../Data/data";
 import myCv from "../../files/cv.pdf";
+import { motion } from "framer-motion";
 
 export default function About() {
   const firstName = data.firstName.toLowerCase();
@@ -129,6 +130,8 @@ export default function About() {
 
   return (
     <Box
+      component={motion.div}
+      exit={{ opacity: 0, transition: { duration: 0.2 } }}
       display={"flex"}
       flexDirection={"column"}
       alignItems={"center"}

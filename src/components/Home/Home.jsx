@@ -5,11 +5,13 @@ import EmojiList from "./EmojiList";
 import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
 import { data } from "../../Data/data";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <Box
-      component={"main"}
+      component={motion.div}
+      exit={{ opacity: 0, transition: { duration: 0.2 } }}
       display={"flex"}
       flexDirection={{ xs: "column", md: "row" }}
       alignItems={"center"}
