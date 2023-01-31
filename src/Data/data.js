@@ -81,6 +81,7 @@ export const data = {
     ],
     portfolio: [
         {
+            category: 'team',
             title: "Project 1",
             description: 'Some text about project',
             live: "https://paytonpierce.dev", 
@@ -88,6 +89,7 @@ export const data = {
             // image: mock1
         },
         {
+            category: 'team',
             title: "Project 2",
             description: 'Some text about project',
             live: "https://paytonpierce.dev",
@@ -95,6 +97,7 @@ export const data = {
             // image: mock2
         },
         {
+            category: 'team',
             title: "Project 3",
             description: 'Some text about project',
             live: "https://paytonpierce.dev",
@@ -102,6 +105,7 @@ export const data = {
             // image: mock3
         },
         {
+            category: 'commercial',
             title: "Project 4",
             description: 'Some text about project',
             live: "https://paytonpierce.dev",
@@ -109,7 +113,48 @@ export const data = {
             // image: mock4
         },
         {
+            category: 'commercial',
             title: "Project 5",
+            description: 'Some text about project',
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            // image: mock5
+        },
+        {
+            category: 'commercial',
+            title: "Project 6",
+            description: 'Some text about project',
+            live: "https://paytonpierce.dev", 
+            source: "https://github.com/paytonjewell",
+            // image: mock1
+        },
+        {
+            category: 'pet',
+            title: "Project 7",
+            description: 'Some text about project',
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            // image: mock2
+        },
+        {
+            category: 'pet',
+            title: "Project 8",
+            description: 'Some text about project',
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            // image: mock3
+        },
+        {
+            category: 'pet',
+            title: "Project 9",
+            description: 'Some text about project',
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            // image: mock4
+        },
+        {
+            category: 'pet',
+            title: "Project 10",
             description: 'Some text about project',
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",

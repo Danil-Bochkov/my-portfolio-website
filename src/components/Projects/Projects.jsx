@@ -1,68 +1,94 @@
-import { Routes, Route } from "react-router";
-import { Link } from "react-router-dom";
-import PetProjects from "../../components/Projects/PetProjects/PetProjects";
-import TeamProjects from "../../components/Projects/TeamProjects/TeamProjects";
-import CommercialProjects from "../../components/Projects/CommercialProjects/CommercialProjects";
+import { useEffect, useState } from "react";
+import { Box, Grid } from "@mui/material";
 import { motion } from "framer-motion";
-import { Box } from "@mui/system";
+import { data } from "../../Data/data";
+
+import ProjectCard from "./ProjectCard";
+
+import Style from "./Projects.module.scss";
 
 const btns = [
   {
     name: "All",
-    to: "/",
+    value: "all",
   },
   {
     name: "Pet",
-    to: "/about",
-    active: "about",
+    value: "pet",
   },
   {
     name: "Team",
-    to: "/projects",
-    active: "projects",
+    value: "team",
   },
   {
     name: "Commercial",
-    to: "/projects",
-    active: "projects",
+    value: "commercial",
   },
 ];
 
 function Projects() {
+  const [activeBtn, setActiveBtn] = useState("all");
+  const [projectsByCategory, setProjectsByCategory] = useState(data.portfolio);
+
+  useEffect(() => {
+    const filteredByTag =
+      activeBtn === "all"
+        ? data.portfolio
+        : data.portfolio.filter((project) =>
+            project.category.includes(activeBtn)
+          );
+    setProjectsByCategory(filteredByTag);
+  }, [activeBtn]);
+
   return (
     <Box
       component={motion.div}
       exit={{ opacity: 0, transition: { duration: 0.4 } }}
     >
       <Box
-        component={"ul"}
+        component={"div"}
         display={"flex"}
         flexWrap={"wrap"}
         justifyContent={"center"}
         alignItems={"center"}
         gap={{ xs: "2rem", md: "8rem" }}
       >
-        <Box component={"li"}>
-          <Link to="./">All Projects</Link>
-        </Box>
-        <Box component={"li"}>
-          <Link to="./pet">Pet-projects</Link>
-        </Box>
-        <Box component={"li"}>
-          <Link to="./team">Team Projects</Link>
-        </Box>
-        <Box component={"li"}>
-          <Link to="./commercial">Commercial Projects</Link>
-        </Box>
+        {btns.map((btn, i) => (
+          <Box component={"div"} key={i} className={Style.RadioBtns}>
+            <input
+              id={i}
+              type={"radio"}
+              value={btn.value}
+              checked={activeBtn === btn.value}
+              onChange={(event) => {
+                setActiveBtn(event.target.value);
+              }}
+            />
+            <label htmlFor={i}>{btn.name}</label>
+          </Box>
+        ))}
       </Box>
-      <div>
-        <Routes>
-          <Route path="./" component={<div>All Projects</div>} />
-          <Route path="./pet" component={<PetProjects />} />
-          <Route path="./team" component={<TeamProjects />} />
-          <Route path="./commercial" component={<CommercialProjects />} />
-        </Routes>
-      </div>
+      <Box>
+        <Grid
+          container
+          display={"flex"}
+          justifyContent={"center"}
+          marginTop={"40px"}
+        >
+          {projectsByCategory.map((project, i) => (
+            <Grid item xs={12} md={6} key={i}>
+              <ProjectCard
+                // image={project.image}
+                category={project.category}
+                live={project.live}
+                source={project.source}
+                title={project.title}
+                description={project.description}
+              />
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
     </Box>
   );
 }

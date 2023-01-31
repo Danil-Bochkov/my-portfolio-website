@@ -1,0 +1,20 @@
+.projectsList {
+}
+
+.RadioBtns {
+  & input[type="radio"] {
+    display: none;
+  }
+
+  & label {
+    padding: 5px 20px;
+    color: inherit;
+    border: 2px solid orange;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  & [type="radio"]:checked + label {
+    border-color: red;
+  }
+}
