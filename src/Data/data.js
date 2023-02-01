@@ -7,6 +7,8 @@ import wallet from "../images/wallet.png"
 import petly from "../images/petly.png"
 import sobdesign from "../images/sob-design.png"
 import ersodesign from "../images/ersodesign.png"
+import mbox from "../images/mbox.png"
+
 
 export let colors = ["rgb(83, 134, 65), rgb(53, 120, 208)"];
 
@@ -145,7 +147,7 @@ export const data = {
             description: 'Some text about project',
             live: "https://danil-bochkov.github.io/goit-react-hw-05-movies/#/",
             source: "https://github.com/Danil-Bochkov/goit-react-hw-05-movies",
-            // image: mock4
+            image: mbox
         },
         {
             category: 'pet',
