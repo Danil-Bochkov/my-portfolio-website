@@ -1,9 +1,9 @@
 import self from '../images/me.png'
-// import mock1 from "../img/mock1.png"
-// import mock2 from "../img/mock2.png"
-// import mock3 from "../img/mock3.png"
-// import mock4 from "../img/mock4.png"
-// import mock5 from "../img/mock5.png"
+// import mock1 from "../images/me.png"
+// import mock2 from "../images/me.png"
+// import mock3 from "../images/me.png"
+// import mock4 from "../images/me.png"
+// import mock5 from "../images/me.png"
 
 export let colors = ["rgb(83, 134, 65), rgb(53, 120, 208)"];
 
@@ -81,84 +81,84 @@ export const data = {
     ],
     portfolio: [
         {
-            category: 'team',
-            title: "Project 1",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev", 
-            source: "https://github.com/paytonjewell",
-            // image: mock1
-        },
-        {
-            category: 'team',
-            title: "Project 2",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock2
-        },
-        {
-            category: 'team',
-            title: "Project 3",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock3
-        },
-        {
-            category: 'commercial',
-            title: "Project 4",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock4
-        },
-        {
-            category: 'commercial',
-            title: "Project 5",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock5
-        },
-        {
-            category: 'commercial',
-            title: "Project 6",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev", 
-            source: "https://github.com/paytonjewell",
-            // image: mock1
-        },
-        {
             category: 'pet',
-            title: "Project 7",
+            title: "Phonebooker",
             description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock2
-        },
-        {
-            category: 'pet',
-            title: "Project 8",
-            description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "https://danil-bochkov.github.io/goit-react-hw-08-phonebook/",
+            source: "https://github.com/Danil-Bochkov/goit-react-hw-08-phonebook",
             // image: mock3
         },
         {
             category: 'pet',
-            title: "Project 9",
+            title: "Mbox",
             description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "https://danil-bochkov.github.io/goit-react-hw-05-movies/#/",
+            source: "https://github.com/Danil-Bochkov/goit-react-hw-05-movies",
             // image: mock4
         },
         {
             category: 'pet',
-            title: "Project 10",
+            title: "ImageSearcher",
             description: 'Some text about project',
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "https://danil-bochkov.github.io/goit-react-hw-04-image-finder/",
+            source: "https://github.com/Danil-Bochkov/goit-react-hw-04-image-finder",
+            // image: mock4
+        },
+        {
+            category: 'pet',
+            title: "WebStudio",
+            description: 'Some text about project',
+            live: "https://danil-bochkov.github.io/goit-markup-hw-08/", 
+            source: "https://github.com/Danil-Bochkov/goit-markup-hw-08",
+            // image: mock1
+        },
+        {
+            category: 'team',
+            title: "Hellish English",
+            description: 'Some text about project',
+            live: "https://anyanass.github.io/Repeta-followers/",
+            source: "https://github.com/AnyaNass/Repeta-followers",
+            // image: mock2
+        },
+        {
+            category: 'team',
+            title: "Event Booster",
+            description: 'Some text about project',
+            live: "https://alonastasyshyna.github.io/event-booster/",
+            source: "https://github.com/AlonaStasyshyna/event-booster",
+            // image: mock3
+        },
+        {
+            category: 'team',
+            title: "Wallet",
+            description: 'Some text about project',
+            live: "https://rostyslavderii.github.io/wallet-app/",
+            source: "https://github.com/Rostyslavderii/wallet-app",
+            // image: mock4
+        },
+        {
+            category: 'team',
+            title: "Petly",
+            description: 'Some text about project',
+            live: "https://pet-support.vercel.app/",
+            source: "https://github.com/LiliyaFaizulina/pet-support",
             // image: mock5
-        }
+        },
+        {
+            category: 'commercial',
+            title: "Erso Design",
+            description: 'Some text about project',
+            live: "https://danil-bochkov.github.io/ERSO-portfolio/", 
+            source: "https://github.com/Danil-Bochkov/ERSO-portfolio",
+            // image: mock1
+        },
+        {
+            category: 'commercial',
+            title: "SOB_DESIGN",
+            description: 'Some text about project',
+            live: "https://danil-bochkov.github.io/SOB_DESIGN-portfolio/",
+            source: "https://github.com/Danil-Bochkov/SOB_DESIGN-portfolio",
+            // image: mock2
+        },
     ]
 }

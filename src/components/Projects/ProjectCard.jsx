@@ -22,10 +22,10 @@ function ProjectCard({ image, live, source, title, description, category }) {
       >
         <p style={{ fontSize: "1rem" }}>{description}</p>
         <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-          <IconLink link={live} title={"Live Demo"} icon={"fa fa-safari"} />
+          <IconLink link={live} title={"Live Page"} icon={"fa fa-safari"} />
         </Box>
         <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-          <IconLink link={source} title={"Source Code"} icon={"fa fa-code"} />
+          <IconLink link={source} title={"Repository"} icon={"fa fa-code"} />
         </Box>
       </Box>
     </Box>
