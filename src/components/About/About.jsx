@@ -1,9 +1,12 @@
-import Style from "./About.module.scss";
-import Terminal from "./Terminal";
+import { motion } from "framer-motion";
 import { Box } from "@mui/material";
 import { data } from "../../Data/data";
+import Terminal from "./Terminal";
+import myCertificate from '../../files/certificate.pdf'
 import myCv from "../../files/cv.pdf";
-import { motion } from "framer-motion";
+import cvPic from '../../images/cv.png'
+import certificatePic from '../../images/certificate.png'
+import Style from "./About.module.scss";
 
 export default function About() {
   const firstName = data.firstName.toLowerCase();
@@ -86,11 +89,17 @@ export default function About() {
         <p style={{ color: data.baseColor }} className={Style.line}></p>
         <p style={{ color: data.baseColor }}> GOIT Full Stack Bootcamp</p>
         <p style={{ color: data.baseColor }}> 2022-2023</p>
+        <p className={Style.pictureOfFile}>
+          <img src={certificatePic} alt="Certificate preview" />
+          <a href={myCertificate} download="danny-bochkov-certificate" >
+            Download my certificate
+          </a>
+        </p>
         <p style={{ color: data.baseColor }} className={Style.line}></p>
         <p style={{ color: data.baseColor }}> My resume</p>
-
-        <p>
-          <a href={myCv} download="danny-bochkov-cv">
+        <p className={Style.pictureOfFile}>
+          <img src={cvPic} alt="CV preview" />
+          <a href={myCv} download="danny-bochkov-cv" >
             Download my CV
           </a>
         </p>

@@ -24,3 +24,32 @@
     width: 100%;
     border-top: 1px dashed;
 }
+
+.pictureOfFile {
+  position: relative;
+  display: inline;
+
+  & img {
+    position: absolute;
+    opacity: 0;
+  }
+
+  &:hover {
+    & img {
+      display: block;
+      opacity: 1;
+      max-width: 300px;
+      max-height: 400px;
+      position: absolute;
+      top: -400px;
+      left: 0;
+      z-index: 0;
+      transition: opacity 300ms ease-in-out;
+
+      @media screen and (max-width: 420px) {
+        max-width: 175px;
+      max-height: 275px;
+      }
+    }
+  }
+}

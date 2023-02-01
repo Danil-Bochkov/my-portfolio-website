@@ -78,7 +78,7 @@ function Projects() {
           {projectsByCategory.map((project, i) => (
             <Grid item xs={12} md={6} key={i}>
               <ProjectCard
-                // image={project.image}
+                image={project.image}
                 category={project.category}
                 live={project.live}
                 source={project.source}

@@ -1,9 +1,12 @@
 import self from '../images/me.png'
-// import mock1 from "../images/me.png"
-// import mock2 from "../images/me.png"
-// import mock3 from "../images/me.png"
-// import mock4 from "../images/me.png"
-// import mock5 from "../images/me.png"
+import webstudio from "../images/webstudio.png"
+import imagefinder from "../images/imagefinder.png"
+import hellish from "../images/hellish.png"
+import eventbooster from "../images/eventbooster.png"
+import wallet from "../images/wallet.png"
+import petly from "../images/petly.png"
+import sobdesign from "../images/sob-design.png"
+import ersodesign from "../images/ersodesign.png"
 
 export let colors = ["rgb(83, 134, 65), rgb(53, 120, 208)"];
 
@@ -81,6 +84,54 @@ export const data = {
     ],
     portfolio: [
         {
+            category: 'team',
+            title: "Hellish English",
+            description: 'Some text about project',
+            live: "https://anyanass.github.io/Repeta-followers/",
+            source: "https://github.com/AnyaNass/Repeta-followers",
+            image: hellish
+        },
+        {
+            category: 'team',
+            title: "Event Booster",
+            description: 'Some text about project',
+            live: "https://alonastasyshyna.github.io/event-booster/",
+            source: "https://github.com/AlonaStasyshyna/event-booster",
+            image: eventbooster
+        },
+        {
+            category: 'team',
+            title: "Wallet",
+            description: 'Some text about project',
+            live: "https://rostyslavderii.github.io/wallet-app/",
+            source: "https://github.com/Rostyslavderii/wallet-app",
+            image: wallet
+        },
+        {
+            category: 'team',
+            title: "Petly",
+            description: 'Some text about project',
+            live: "https://pet-support.vercel.app/",
+            source: "https://github.com/LiliyaFaizulina/pet-support",
+            image: petly
+        },
+        {
+            category: 'commercial',
+            title: "Erso Design",
+            description: 'Some text about project',
+            live: "https://danil-bochkov.github.io/ERSO-portfolio/", 
+            source: "https://github.com/Danil-Bochkov/ERSO-portfolio",
+            image: ersodesign
+        },
+        {
+            category: 'commercial',
+            title: "SOB_DESIGN",
+            description: 'Some text about project',
+            live: "https://danil-bochkov.github.io/SOB_DESIGN-portfolio/",
+            source: "https://github.com/Danil-Bochkov/SOB_DESIGN-portfolio",
+            image: sobdesign
+        },
+        {
             category: 'pet',
             title: "Phonebooker",
             description: 'Some text about project',
@@ -102,7 +153,7 @@ export const data = {
             description: 'Some text about project',
             live: "https://danil-bochkov.github.io/goit-react-hw-04-image-finder/",
             source: "https://github.com/Danil-Bochkov/goit-react-hw-04-image-finder",
-            // image: mock4
+            image: imagefinder
         },
         {
             category: 'pet',
@@ -110,55 +161,7 @@ export const data = {
             description: 'Some text about project',
             live: "https://danil-bochkov.github.io/goit-markup-hw-08/", 
             source: "https://github.com/Danil-Bochkov/goit-markup-hw-08",
-            // image: mock1
-        },
-        {
-            category: 'team',
-            title: "Hellish English",
-            description: 'Some text about project',
-            live: "https://anyanass.github.io/Repeta-followers/",
-            source: "https://github.com/AnyaNass/Repeta-followers",
-            // image: mock2
-        },
-        {
-            category: 'team',
-            title: "Event Booster",
-            description: 'Some text about project',
-            live: "https://alonastasyshyna.github.io/event-booster/",
-            source: "https://github.com/AlonaStasyshyna/event-booster",
-            // image: mock3
-        },
-        {
-            category: 'team',
-            title: "Wallet",
-            description: 'Some text about project',
-            live: "https://rostyslavderii.github.io/wallet-app/",
-            source: "https://github.com/Rostyslavderii/wallet-app",
-            // image: mock4
-        },
-        {
-            category: 'team',
-            title: "Petly",
-            description: 'Some text about project',
-            live: "https://pet-support.vercel.app/",
-            source: "https://github.com/LiliyaFaizulina/pet-support",
-            // image: mock5
-        },
-        {
-            category: 'commercial',
-            title: "Erso Design",
-            description: 'Some text about project',
-            live: "https://danil-bochkov.github.io/ERSO-portfolio/", 
-            source: "https://github.com/Danil-Bochkov/ERSO-portfolio",
-            // image: mock1
-        },
-        {
-            category: 'commercial',
-            title: "SOB_DESIGN",
-            description: 'Some text about project',
-            live: "https://danil-bochkov.github.io/SOB_DESIGN-portfolio/",
-            source: "https://github.com/Danil-Bochkov/SOB_DESIGN-portfolio",
-            // image: mock2
-        },
+            image: webstudio
+        }
     ]
 }
