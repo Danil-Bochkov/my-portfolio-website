@@ -30,7 +30,7 @@ export const data = {
         },
         {
             emoji: "💼",
-            text: "Open to work"
+            text: "open to work"
         },
         {
             emoji: "📧",
@@ -61,10 +61,10 @@ export const data = {
     ],
     bio: "Hi! I'm Danny. I'm a Full Stack Developer. I studied CompSci at National University of Radioelectronics. To be honest, I dedicate myself to working on every task. I try to learn everything new because web development is very interesting to me. I believe that it is important for a person that the site or application he visited was very pleasant and without bugs. I also know how to fit well into a team because I am an open and kind person. I am very focused and confident. You should hire me!",
     skills:
-        {
-            proficientWith: ['html5', 'css3', 'sass', 'javascript', 'react', 'nodejs', 'mongodb'],
-            exposedTo: ['figma', 'adobe after effects', 'scrum&kanban']
-        }
+    {
+        proficientWith: ['html5', 'css3', 'sass', 'javascript', 'react', 'nodejs', 'mongodb'],
+        exposedTo: ['figma', 'adobe after effects', 'scrum&kanban']
+    }
     ,
     hobbies: [
         {
@@ -121,7 +121,7 @@ export const data = {
             category: 'commercial',
             title: "Erso Design",
             description: 'Some text about project',
-            live: "https://danil-bochkov.github.io/ERSO-portfolio/", 
+            live: "https://danil-bochkov.github.io/ERSO-portfolio/",
             source: "https://github.com/Danil-Bochkov/ERSO-portfolio",
             image: ersodesign
         },
@@ -161,7 +161,7 @@ export const data = {
             category: 'pet',
             title: "WebStudio",
             description: 'Some text about project',
-            live: "https://danil-bochkov.github.io/goit-markup-hw-08/", 
+            live: "https://danil-bochkov.github.io/goit-markup-hw-08/",
             source: "https://github.com/Danil-Bochkov/goit-markup-hw-08",
             image: webstudio
         }
