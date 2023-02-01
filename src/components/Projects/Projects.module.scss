@@ -1,20 +1,39 @@
-.projectsList {
-}
-
 .RadioBtns {
+  position: relative;
+  z-index: 19;
   & input[type="radio"] {
     display: none;
   }
 
   & label {
+    position: relative;
     padding: 5px 20px;
     color: inherit;
-    border: 2px solid orange;
+    background-color: inherit;
+    border: 2px solid #666;
+    background-clip: padding-box;
     border-radius: 20px;
     cursor: pointer;
+    z-index: 20;
   }
 
   & [type="radio"]:checked + label {
-    border-color: red;
+    border: none;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -2px;
+      border-radius: inherit;
+      background: linear-gradient(
+        to right,
+        rgb(83, 134, 65),
+        rgb(53, 120, 208)
+      );
+    }
   }
 }

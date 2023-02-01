@@ -9,7 +9,7 @@ function ProjectCard({ image, live, source, title, description, category }) {
       justifyContent={"center"}
       alignItems={"center"}
     >
-      <Box component={"img"} src={image} alt={category} />
+      <img src={image} alt={category} />
       <h1 style={{ fontSize: "2rem" }}>{title}</h1>
       <Box
         className={"portfolio"}
