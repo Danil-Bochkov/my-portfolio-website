@@ -8,7 +8,7 @@ import petly from "../images/petly.png"
 import sobdesign from "../images/sob-design.png"
 import ersodesign from "../images/ersodesign.png"
 import mbox from "../images/mbox.png"
-
+// import phonebook from '../images/phonebook.png'
 
 export let colors = ["rgb(83, 134, 65), rgb(53, 120, 208)"];
 
@@ -88,7 +88,7 @@ export const data = {
         {
             category: 'team',
             title: "Hellish English",
-            description: 'Some text about project',
+            description: 'Hellish English - an adaptive website for an English school. This was a team project. My role was Developer: I was responsible for the review, teacher, and guarantee sections and for making an adaptive design for them. I used HTML, SASS, and Parcel.',
             live: "https://anyanass.github.io/Repeta-followers/",
             source: "https://github.com/AnyaNass/Repeta-followers",
             image: hellish
@@ -96,7 +96,7 @@ export const data = {
         {
             category: 'team',
             title: "Event Booster",
-            description: 'Some text about project',
+            description: 'Event Booster - an adaptive web application, designed to search events around the world. This was a team project. I was responsible for the header and pagination sections. For the pagination section, I used pure JS, and for making an adaptive design - SASS.',
             live: "https://alonastasyshyna.github.io/event-booster/",
             source: "https://github.com/AlonaStasyshyna/event-booster",
             image: eventbooster
@@ -104,7 +104,7 @@ export const data = {
         {
             category: 'team',
             title: "Wallet",
-            description: 'Some text about project',
+            description: 'Wallet is a responsive app for people who want to do accounting. It was a team project developed in React. I was responsible for the statistics section, in terms of monthly transactions, as well as its responsive design.',
             live: "https://rostyslavderii.github.io/wallet-app/",
             source: "https://github.com/Rostyslavderii/wallet-app",
             image: wallet
@@ -112,7 +112,7 @@ export const data = {
         {
             category: 'team',
             title: "Petly",
-            description: 'Some text about project',
+            description: 'Petly is the most interesting responsive app for people who want to find a pet or give it to good hands. It was a team project developed in React and NodeJs. I was responsible for the modal window for adding ads and developing the endpoint for the favorite section. After QA testing, all the bugs in my tasks were fixed.',
             live: "https://pet-support.vercel.app/",
             source: "https://github.com/LiliyaFaizulina/pet-support",
             image: petly
@@ -120,7 +120,7 @@ export const data = {
         {
             category: 'commercial',
             title: "Erso Design",
-            description: 'Some text about project',
+            description: 'Erso Design is a responsive website for a customer. I used HTML SASS and JS to develop this web page. This website is fully responsive and also has a working feedback form.',
             live: "https://danil-bochkov.github.io/ERSO-portfolio/",
             source: "https://github.com/Danil-Bochkov/ERSO-portfolio",
             image: ersodesign
@@ -128,23 +128,23 @@ export const data = {
         {
             category: 'commercial',
             title: "SOB_DESIGN",
-            description: 'Some text about project',
+            description: 'SOB_DESIGN is an adaptive portfolio site for a customer. This site is fully responsive and has two different working feedback forms. I used HTML SASS and JS to develop this web page.',
             live: "https://danil-bochkov.github.io/SOB_DESIGN-portfolio/",
             source: "https://github.com/Danil-Bochkov/SOB_DESIGN-portfolio",
             image: sobdesign
         },
         {
             category: 'pet',
-            title: "Phonebooker",
-            description: 'Some text about project',
+            title: "Phonebook",
+            description: 'Phonebook is a responsive app for people who want to store all their contacts. It was a solo project developed in React and NodeJs. I used Mongodb to develop all endpoints and the backend of the app. For the frontend, I used CSS for responsive design and react components for a clean code look.',
             live: "https://danil-bochkov.github.io/goit-react-hw-08-phonebook/",
             source: "https://github.com/Danil-Bochkov/goit-react-hw-08-phonebook",
-            // image: mock3
+            // image: phonebook
         },
         {
             category: 'pet',
             title: "Mbox",
-            description: 'Some text about project',
+            description: 'Media Box is a responsive app for people who want to find movies to watch and spend their evenings with. It is my solo project, developed in React, and I used a third-party API. You can choose movies through a search engine, look at the cast list, or read reviews from viewers.',
             live: "https://danil-bochkov.github.io/goit-react-hw-05-movies/#/",
             source: "https://github.com/Danil-Bochkov/goit-react-hw-05-movies",
             image: mbox
@@ -152,7 +152,7 @@ export const data = {
         {
             category: 'pet',
             title: "ImageSearcher",
-            description: 'Some text about project',
+            description: 'Image Searcher is a simple responsive app to search for any image. This is my solo project developed in React and I used a third-party API. You can search for any image through the search engine and see it in a larger size with a click.',
             live: "https://danil-bochkov.github.io/goit-react-hw-04-image-finder/",
             source: "https://github.com/Danil-Bochkov/goit-react-hw-04-image-finder",
             image: imagefinder
@@ -160,7 +160,7 @@ export const data = {
         {
             category: 'pet',
             title: "WebStudio",
-            description: 'Some text about project',
+            description: 'WebStudio Landing Page is a responsive website for a web studio. It was a solo project and my first project with HTML and CSS.',
             live: "https://danil-bochkov.github.io/goit-markup-hw-08/",
             source: "https://github.com/Danil-Bochkov/goit-markup-hw-08",
             image: webstudio
