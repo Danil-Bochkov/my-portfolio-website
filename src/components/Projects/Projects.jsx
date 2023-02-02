@@ -29,7 +29,7 @@ const btns = [
 function Projects() {
   const [activeBtn, setActiveBtn] = useState("all");
   const [projectsByCategory, setProjectsByCategory] = useState(data.portfolio);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const filteredByTag =
@@ -39,7 +39,7 @@ function Projects() {
             project.category.includes(activeBtn)
           );
     setProjectsByCategory(filteredByTag);
-    setTimeout(() => setIsLoading(false), 2500);
+    // setTimeout(() => setIsLoading(false), 1000);
   }, [activeBtn]);
 
   return (
