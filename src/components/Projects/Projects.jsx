@@ -70,7 +70,7 @@ function Projects() {
       <Box>
         <Box
           component={"div"}
-          display={"inline-flex"}
+          display={"flex"}
           flexWrap={"wrap"}
           justifyContent={"center"}
           gap={"1rem"}
