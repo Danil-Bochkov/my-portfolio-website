@@ -39,7 +39,7 @@ function Projects() {
             project.category.includes(activeBtn)
           );
     setProjectsByCategory(filteredByTag);
-    setTimeout(() => setIsLoading(false), 2500)
+    setTimeout(() => setIsLoading(false), 2500);
   }, [activeBtn]);
 
   return (
@@ -53,7 +53,7 @@ function Projects() {
         flexWrap={"wrap"}
         justifyContent={"center"}
         alignItems={"center"}
-        gap={'2rem'}
+        gap={"2rem"}
       >
         {btns.map((btn, i) => (
           <Box component={"div"} key={i} className={Style.RadioBtns}>
@@ -71,17 +71,20 @@ function Projects() {
         ))}
       </Box>
       <Box>
-        <Grid
-          container
-          display={"flex"}
+        <Box
+          component={"div"}
+          display={"inline-flex"}
+          flexWrap={"wrap"}
           justifyContent={"center"}
-          marginTop={"40px"}
+          gap={"1rem"}
+          marginY={"20px"}
         >
-          {isLoading ? 
-            (<Loader />) : 
-            (<ProjectsList projects={projectsByCategory} />)
-          }
-        </Grid>
+          {isLoading ? (
+            <Loader />
+          ) : (
+            <ProjectsList projects={projectsByCategory} />
+          )}
+        </Box>
       </Box>
     </Box>
   );

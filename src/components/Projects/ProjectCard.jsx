@@ -8,19 +8,30 @@ function ProjectCard({ image, live, source, title, description, category }) {
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
+      padding={"20px"}
+      flexGrow={"1"}
     >
       <img src={image} alt={category} />
-      <h1 style={{ fontSize: "2rem" }}>{title}</h1>
+      <h1
+        style={{
+          fontSize: "2rem",
+          padding: "1rem 0",
+          xs: { fontSize: "1.5rem" },
+        }}
+      >
+        {title}
+      </h1>
       <Box
         className={"portfolio"}
-        display={"flex"}
+        display={"inline-flex"}
         flexDirection={"column"}
-        gap={"0.5rem"}
+        gap={"0.8rem"}
         alignItems={"center"}
         fontSize={"1.5rem"}
-        py={"2rem"}
       >
-        <p style={{ fontSize: "1rem" }}>{description}</p>
+        <p style={{ fontSize: "1rem", maxWidth: "500px", opacity: ".7" }}>
+          {description}
+        </p>
         <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
           <IconLink link={live} title={"Live Page"} icon={"fa fa-safari"} />
         </Box>
