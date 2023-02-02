@@ -28,7 +28,14 @@ function ProjectCard({ image, live, source, title, description, category }) {
           >
             {title}
           </h1>
-          <p style={{ fontSize: "1rem", maxWidth: "500px", opacity: ".7" }}>
+          <p
+            style={{
+              fontSize: "1rem",
+              maxWidth: "500px",
+              opacity: ".7",
+              textAlign: "center",
+            }}
+          >
             {description}
           </p>
         </Box>
