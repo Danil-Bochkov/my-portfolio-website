@@ -34,6 +34,8 @@ function ProjectCard({ image, live, source, title, description, category }) {
               maxWidth: "500px",
               opacity: ".7",
               textAlign: "center",
+              display: "block",
+              margin: "0 auto",
             }}
           >
             {description}
