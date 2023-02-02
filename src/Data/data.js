@@ -8,7 +8,7 @@ import petly from "../images/petly.png"
 import sobdesign from "../images/sob-design.png"
 import ersodesign from "../images/ersodesign.png"
 import mbox from "../images/mbox.png"
-// import phonebook from '../images/phonebook.png'
+import phonebook from '../images/phonebook.png'
 
 export let colors = ["rgb(83, 134, 65), rgb(53, 120, 208)"];
 
@@ -136,10 +136,10 @@ export const data = {
         {
             category: 'pet',
             title: "Phonebook",
-            description: 'Phonebook is a responsive app for people who want to store all their contacts. It was a solo project developed in React and NodeJs. I used Mongodb to develop all endpoints and the backend of the app. For the frontend, I used CSS for responsive design and react components for a clean code look.',
+            description: 'Phonebook is an app for people who want to store all their contacts. It was a solo project developed in React and NodeJs. I used Mongodb to develop all endpoints and the backend of the app. For the frontend I used react components for a clean code look.',
             live: "https://danil-bochkov.github.io/goit-react-hw-08-phonebook/",
             source: "https://github.com/Danil-Bochkov/goit-react-hw-08-phonebook",
-            // image: phonebook
+            image: phonebook
         },
         {
             category: 'pet',
