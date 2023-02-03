@@ -2,10 +2,12 @@ import { motion } from "framer-motion";
 import { Box } from "@mui/material";
 import { data } from "../../Data/data";
 import Terminal from "./Terminal";
-import myCertificate from '../../files/certificate.pdf'
+import myCertificateOfUniversity from "../../files/certificateFromUniversity.pdf";
+import myCertificate from "../../files/certificate.pdf";
 import myCv from "../../files/cv.pdf";
-import cvPic from '../../images/cv.png'
-import certificatePic from '../../images/certificate.png'
+import cvPic from "../../images/cv.png";
+import certificatePic from "../../images/certificate.png";
+import certifUniverPic from "../../images/certificateOfUniversity.png";
 import Style from "./About.module.scss";
 
 export default function About() {
@@ -86,12 +88,21 @@ export default function About() {
           Kharkiv National University Of Radioelectronics
         </p>
         <p style={{ color: data.baseColor }}> 2019-2023</p>
+        <p className={Style.pictureOfFile}>
+          <img src={certifUniverPic} alt="Certificate preview" />
+          <a
+            href={myCertificateOfUniversity}
+            download="danny-bochkov-certificate"
+          >
+            Download my certificate
+          </a>
+        </p>
         <p style={{ color: data.baseColor }} className={Style.line}></p>
         <p style={{ color: data.baseColor }}> GOIT Full Stack Bootcamp</p>
         <p style={{ color: data.baseColor }}> 2022-2023</p>
         <p className={Style.pictureOfFile}>
           <img src={certificatePic} alt="Certificate preview" />
-          <a href={myCertificate} download="danny-bochkov-certificate" >
+          <a href={myCertificate} download="danny-bochkov-certificate">
             Download my certificate
           </a>
         </p>
@@ -99,7 +110,7 @@ export default function About() {
         <p style={{ color: data.baseColor }}> My resume</p>
         <p className={Style.pictureOfFile}>
           <img src={cvPic} alt="CV preview" />
-          <a href={myCv} download="danny-bochkov-cv" >
+          <a href={myCv} download="danny-bochkov-cv">
             Download my CV
           </a>
         </p>
