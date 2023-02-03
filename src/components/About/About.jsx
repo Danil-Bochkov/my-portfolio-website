@@ -92,7 +92,7 @@ export default function About() {
           <img src={certifUniverPic} alt="Certificate preview" />
           <a
             href={myCertificateOfUniversity}
-            download="danny-bochkov-certificate"
+            download="danny-bochkov-certificate-from-university"
           >
             Download my certificate of university
           </a>
