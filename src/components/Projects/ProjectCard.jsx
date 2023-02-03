@@ -15,7 +15,7 @@ function ProjectCard({ image, live, source, title, description, category }) {
         display={"flex"}
         flexDirection={"column"}
         justifyContent={"space-between"}
-        height={"300px"}
+        height={"330px"}
       >
         <Box>
           <h1
