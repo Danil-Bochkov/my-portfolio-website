@@ -94,7 +94,7 @@ export default function About() {
             href={myCertificateOfUniversity}
             download="danny-bochkov-certificate"
           >
-            Download my certificate
+            Download my certificate of university
           </a>
         </p>
         <p style={{ color: data.baseColor }} className={Style.line}></p>
