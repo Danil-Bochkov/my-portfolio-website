@@ -98,8 +98,8 @@ export default function About() {
           </a>
         </p>
         <p style={{ color: data.baseColor }} className={Style.line}></p>
-        <p style={{ color: data.baseColor }}> GOIT Full Stack Bootcamp</p>
-        <p style={{ color: data.baseColor }}> 2022-2023</p>
+        <p style={{ color: data.baseColor }}>GOIT Full Stack Bootcamp</p>
+        <p style={{ color: data.baseColor }}>2022-2023</p>
         <p className={Style.pictureOfFile}>
           <img src={certificatePic} alt="Certificate preview" />
           <a href={myCertificate} download="danny-bochkov-certificate">
@@ -107,7 +107,7 @@ export default function About() {
           </a>
         </p>
         <p style={{ color: data.baseColor }} className={Style.line}></p>
-        <p style={{ color: data.baseColor }}> My resume</p>
+        <p style={{ color: data.baseColor }}>My resume</p>
         <p className={Style.pictureOfFile}>
           <img src={cvPic} alt="CV preview" />
           <a href={myCv} download="danny-bochkov-cv">
