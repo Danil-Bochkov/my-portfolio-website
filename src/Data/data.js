@@ -133,14 +133,14 @@ export const data = {
             source: "https://github.com/Danil-Bochkov/SOB_DESIGN-portfolio",
             image: sobdesign
         },
-        {
-            category: 'pet',
-            title: "Phonebook",
-            description: 'Phonebook is an app for people who want to store all their contacts. It was a solo project developed in React and NodeJs. I used Mongodb to develop all endpoints and the backend of the app. For the frontend I used react components for a clean code look.',
-            live: "https://danil-bochkov.github.io/goit-react-hw-08-phonebook/",
-            source: "https://github.com/Danil-Bochkov/goit-react-hw-08-phonebook",
-            image: phonebook
-        },
+        // {
+        //     category: 'pet',
+        //     title: "Phonebook",
+        //     description: 'Phonebook is an app for people who want to store all their contacts. It was a solo project developed in React and NodeJs. I used Mongodb to develop all endpoints and the backend of the app. For the frontend I used react components for a clean code look.',
+        //     live: "https://danil-bochkov.github.io/goit-react-hw-08-phonebook/",
+        //     source: "https://github.com/Danil-Bochkov/goit-react-hw-08-phonebook",
+        //     image: phonebook
+        // },
         {
             category: 'pet',
             title: "Mbox",
